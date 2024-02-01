@@ -6,7 +6,7 @@ from __future__ import unicode_literals, print_function, absolute_import, divisi
 # Run it with "python examples.py". It will create various .mdx files in the example_output/
 # directory.
 
-from writemdict import MDictWriter, encrypt_key
+from writemdict.writemdict import MDictWriter, encrypt_key
 from ripemd128 import ripemd128
 import io
 
